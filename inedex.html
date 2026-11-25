@@ -3,10 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code Preet | Developer Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">"CODE" <span>PREET.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+            
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="tag">ASPIRING SOFTWARE DEVELOPER</p>
+
+            <h1>
+                Hey, I'm <span>Preet.</span><br>
+                I build things for the web.
+            </h1>
+
+            <p class="description">
+                A passionate developer who loves technology,
+                coding and creating digital experiences.
+                Currently learning and building my way forward.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">Explore Projects ↗</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="card-top">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="filename">preet.js</span>
+            </div>
+
+            <div class="code">
+                <p><span class="purple">const</span> developer = {</p>
+                <p class="indent">name: <span class="green">"Preet"</span>,</p>
+                <p class="indent">role: <span class="green">"Developer"</span>,</p>
+                <p class="indent">skills: [<span class="green">"HTML"</span>,</p>
+                <p class="indent"><span class="green">"CSS", "JavaScript"</span>],</p>
+                <p class="indent">learning: <span class="blue">true</span></p>
+                <p>};</p>
+                <p><span class="purple">developer</span>.build();</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section" id="about">
+        
+
+        <p class="section-label">01 / ABOUT ME</p>
+        <h2>Who am <span>I?</span></h2>
+
+        <div class="about-content">
+            <p>
+                I'm Gurpreet singh, an aspiring software developer from India.
+                I enjoy learning how technology works and turning
+                ideas into real-world projects.
+            </p>
+
+            <p>
+                My current focus is web development.
+                I'm strengthening my programming fundamentals
+                and working towards becoming a software engineer.
+            </p>
+            
+        </div>
+
+    </section>
+
+    <section class="section" id="skills">
+
+        <p class="section-label">02 / MY TOOLKIT</p>
+        <h2>My <span>Skills</span></h2>
+
+        <div class="skills-grid">
+
+            <div class="skill">
+                <h3>HTML5</h3>
+                <p>Web structure</p>
+            </div>
+
+            <div class="skill">
+                <h3>CSS3</h3>
+                <p>Styling & layouts</p>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Programming & logic</p>
+            </div>
+
+            <div class="skill">
+                <h3>Git</h3>
+                <p>Version control</p>
+            </div>
+
+            <div class="skill">
+                <h3>GitHub</h3>
+                <p>Code repositories</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+
+        <p class="section-label">03 / MY WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+
+        <div class="projects-grid">
+
+            <div class="project">
+                <div class="project-icon">🛒</div>
+                <h3>Amazon Clone</h3>
+                <p>
+                    A front-end shopping website inspired by
+                    Amazon, built to practice HTML and CSS.
+                </p>
+                <div class="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/gupreetsinghk16/" target="_blank">
+                    GitHub ↗
+                </a>
+            </div>
+
+            <div class="project">
+                <div class="project-icon">💻</div>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    My personal developer website to showcase
+                    my skills, projects and learning journey.
+                </p>
+                <div class="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="#home">Live Preview ↗</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <p class="section-label">04 / GET IN TOUCH</p>
+
+        <h2>Let's build something <span>great.</span></h2>
+
+        <p>
+            Have an idea, opportunity or just want to talk about technology?
+            Feel free to connect.
+        </p>
+
+        <!-- Replace with your email -->
+        <a href="mailto:gurpreetkachura51@gmail.com" class="btn primary">
+            Say Hello ↗
+        </a>
+        <div class="socials">
+  <h3>Find me on social media</h3>
+  <div class="soc">
+    <a href="https://github.com/gurpreetsinghk16/" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/gurpreetsinghk16?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://instagram.com/gurpreetsinghk16" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://youtube.com/@codepreet?si=Zt5QOwUX8a1Z6AYG" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gurpreetkachura51@gmail.com" target="_blank" rel="noopener">Email</a>
+  </div>
+</div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">CODE <span>PREET.</span></a>
+
+        <p>Designed & built by Preet.</p>
+
+        <p>© <span id="year"></span> Code Preet. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
+
 </body>
 </html>
