@@ -157,7 +157,12 @@ h2 span {
 
 .hero-card {
     width: 430px;
-    background: var(--secondary);
+    background-image: url(myimg.jpeg);
+    background-size: cover;
+    background-position:to;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    min-width: 20vw;
     border: 1px solid var(--border);
     border-radius: 12px;
     overflow: hidden;
