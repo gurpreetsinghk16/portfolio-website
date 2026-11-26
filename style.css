@@ -36,6 +36,7 @@ header {
 
 .navbar {
     max-width: 1200px;
+    max-height: 65px;
     margin: auto;
     padding: 22px 30px;
 
